@@ -1,0 +1,12 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: karate-payment-system
+name: karate-payment-system
+region: us-east-1
+yamlVersion: 2
